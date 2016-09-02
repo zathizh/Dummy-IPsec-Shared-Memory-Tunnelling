@@ -1,0 +1,1 @@
+sudo ipcrm shm $(ipcs |grep root | cut -d" " -f2)
